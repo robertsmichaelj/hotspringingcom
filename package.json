@@ -1,0 +1,33 @@
+{
+    "name": "HotSpringing.com",
+    "version": "1.0.0",
+    "description": "HotSpringing.com",
+    "author": "Michael Roberts",
+    "private": true,
+    "scripts": {
+        "dev": "nuxt",
+        "build": "nuxt build",
+        "start": "nuxt start",
+        "generate": "nuxt generate"
+    },
+    "dependencies": {
+        "@directus/sdk-js": "^5.2.1",
+        "@nuxtjs/axios": "^5.3.6",
+        "@nuxtjs/google-analytics": "^2.1.0",
+        "@nuxtjs/sitemap": "^0.2.0",
+        "cross-env": "^5.2.0",
+        "nuxt": "^2.4.3",
+        "nuxt-google-maps-module": "^1.6.0",
+        "terser": "^3.16.1",
+        "vue-disqus": "^3.0.5",
+        "vue-tiny-slider": "^0.1.32",
+        "vue2-google-maps": "^0.10.6",
+        "vuex-persistedstate": "^2.5.4"
+    },
+    "devDependencies": {
+        "nodemon": "^1.18.10"
+    },
+    "resolutions": {
+        "terser": "3.14.1"
+    }
+}
